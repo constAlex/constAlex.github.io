@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+    background: linear-gradient( #00c3ff, #ffff1c );
+}
+
+a {
+    text-decoration: none;
+    color: #00a3cc;
+    text-shadow: 0.2px 0.2px blue;
+}
+
+a:hover {
+    font-size: 1.2em;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    height: auto;
+    border: 13px ridge hsla(36, 100%, 70%, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
+}
+h1  {
+    color:  hsl(315, 100%, 60%);
+    text-shadow: 5px 5px 5px hsl(288, 100%, 40%);
+    font-size: 2.6em;
+    text-align: center;
+}
+
+p, h1 {
+    font-family: 'Handlee', cursive;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
+
+
+header div:first-child {
+    flex: 1 1 20em;
+    margin-left: 25px;
+}
+
+#personal_details {
+    margin-left: -100px;
+    width: 100%;
+    flex: 2 2 20em;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+@media only screen and (min-width: 1300px) {
+    header div:first-child {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 950px)  {
+    header {
+        padding: 10px;
+        flex-direction: column;
+    }
+    #personal_details {
+        margin-left: 0;
+    }
+
+    header > div {
+        margin-left: 0px;
+    }
+
+    #personal_details {
+        padding: 10px;
+    }
+}
+
+blockquote{
+    background-color: #ffff99;
+    border-radius: 6%;
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+    width: 80%;
+    padding: 5px;
+}
+
+blockquote p, footer p {
+    font-weight: 200;
+}
+
+li {
+    font-family: 'Gruppo', cursive;
+    font-size: 18px;
+}
+
+.main_ul li {
+    margin-bottom: 10px;
+}
+
+.main_ul2 li {
+    margin-bottom: 5px;
+}
+
+table {
+    width: 60%;
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+    font-size: 20px;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+main div p:first-child {
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+main div:first-child p:first-child {
+    margin-top: -30px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: linear-gradient( #fdfc47, #24fe41 );
+}
+
+footer p {
+    font-size: 20px;
+}
+
+header, main{
+    margin-bottom: 20px;
+}
