@@ -19,7 +19,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 98%;
+    width: auto;
     height: auto;
     border: 13px ridge hsla(36, 100%, 70%, 0.9);
     margin-left: auto;
@@ -116,7 +116,7 @@ li {
 }
 
 table {
-    width: 60%;
+    width: auto;
     margin-left: 40px;
     margin-right: auto;
 }
