@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 10px 10px 0px 10px;
-    background: linear-gradient( #00c3ff, #ffff1c );
+    background: linear-gradient( #00c3ff, #ffff1c);
 }
 
 a {
@@ -10,24 +10,23 @@ a {
     text-shadow: 0.2px 0.2px blue;
 }
 
-a:hover {
-    font-size: 1.2em;
-}
-
 header {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: auto;
     height: auto;
     border: 13px ridge hsla(36, 100%, 70%, 0.9);
+    background: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
+    padding: 10px;
 }
-h1  {
-    color:  hsl(315, 100%, 60%);
+
+h1 {
+    color: hsl(315, 100%, 60%);
     text-shadow: 5px 5px 5px hsl(288, 100%, 40%);
     font-size: 2.6em;
     text-align: center;
@@ -43,14 +42,15 @@ p {
 }
 
 img {
-    width: 320px;
+    border-radius: 50%;
+    border: 10px groove hsla(36, 100%, 70%, 0.9);
+    width: 40%;
     height: auto;
+    background-position: top;
 }
 
-
 header div:first-child {
-    flex: 1 1 20em;
-    margin-left: 25px;
+    text-align: center;
 }
 
 #personal_details {
@@ -67,7 +67,7 @@ header div:first-child {
     }
 }
 
-@media only screen and (max-width: 950px)  {
+@media only screen and (max-width: 950px) {
     header {
         padding: 10px;
         flex-direction: column;
@@ -75,17 +75,15 @@ header div:first-child {
     #personal_details {
         margin-left: 0;
     }
-
-    header > div {
+    header>div {
         margin-left: 0px;
     }
-
     #personal_details {
         padding: 10px;
     }
 }
 
-blockquote{
+blockquote {
     background-color: #ffff99;
     border-radius: 6%;
     font-family: 'Caveat', cursive;
@@ -103,16 +101,16 @@ li {
     font-size: 18px;
 }
 
-.main_ul > li {
+.main_ul>li {
     margin-bottom: 20px;
 }
 
-.main_ul > li > ul li{
+.main_ul>li>ul li {
     margin-bottom: 5px;
 }
 
 .main_ul2 li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 table {
@@ -128,7 +126,7 @@ table, th, td {
     font-size: 20px;
 }
 
-main{
+main {
     margin: auto;
     width: 90%;
     padding: 20px;
@@ -147,13 +145,13 @@ footer {
     width: 100%;
     height: auto;
     margin: auto;
-    background: linear-gradient( #fdfc47, #24fe41 );
+    background: linear-gradient( #fdfc47, #24fe41);
 }
 
 footer p {
     font-size: 20px;
 }
 
-header, main{
+header, main {
     margin-bottom: 20px;
 }
